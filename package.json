@@ -1,10 +1,10 @@
 {
-  "name": "ai-detox",
-  "displayName": "AI Detox",
+  "name": "raw-code-focus",
+  "displayName": "Raw Code Focus",
   "description": "Block AI coding tools during timed focus sessions and track your raw coding streak.",
   "version": "0.1.0",
   "license": "MIT",
-  "publisher": "dinesh0666",
+  "publisher": "DhineshKumar",
   "homepage": "https://github.com/dinesh0666/ai-detox#readme",
   "bugs": { "url": "https://github.com/dinesh0666/ai-detox/issues" },
   "repository": {

@@ -1,8 +1,8 @@
-# 🧘 AI Detox
+# 🧘 Raw Code Focus
 
 > **Block AI tools. Build focus. Track your raw coding streak.**
 
-AI Detox is a VS Code extension that helps you practise coding without AI assistance. Start a timed detox session — Copilot, TabNine, Codeium and other AI completions are automatically disabled for the duration. When time's up, everything is silently restored.
+Raw Code Focus is a VS Code extension that helps you practise coding without AI assistance. Start a timed focus session — Copilot, TabNine, Codeium and other AI completions are automatically disabled for the duration. When time's up, everything is silently restored.
 
 ---
 
@@ -22,9 +22,9 @@ AI Detox is a VS Code extension that helps you practise coding without AI assist
 - Stop early at any time with a confirmation prompt
 
 ### 📊 Stats Dashboard
-Open the dashboard (`AI Detox: Open Dashboard`) to see:
+Open the dashboard (`Raw Code Focus: Open Dashboard`) to see:
 - Current and longest day streak 🔥
-- Total accumulated detox time
+- Total accumulated focus time
 - Session completion rate
 - Recent session history
 
@@ -34,9 +34,9 @@ Open the dashboard (`AI Detox: Open Dashboard`) to see:
 
 1. Install the extension from the VS Code Marketplace
 2. Open the Command Palette (`Cmd+Shift+P` / `Ctrl+Shift+P`)
-3. Run **`AI Detox: Start Detox Session`** and enter a duration
+3. Run **`Raw Code Focus: Start Detox Session`** and enter a duration
 4. Code without AI — the status bar shows your remaining time
-5. Open **`AI Detox: Open Dashboard`** to track your progress
+5. Open **`Raw Code Focus: Open Dashboard`** to track your progress
 
 ---
 
@@ -44,9 +44,9 @@ Open the dashboard (`AI Detox: Open Dashboard`) to see:
 
 | Command | Description |
 |---|---|
-| `AI Detox: Start Detox Session` | Start a session (prompts for duration in minutes) |
-| `AI Detox: Stop Detox Session` | End the current session early |
-| `AI Detox: Open Dashboard` | Open the stats dashboard |
+| `Raw Code Focus: Start Detox Session` | Start a session (prompts for duration in minutes) |
+| `Raw Code Focus: Stop Detox Session` | End the current session early |
+| `Raw Code Focus: Open Dashboard` | Open the stats dashboard |
 
 ---
 
@@ -61,7 +61,7 @@ Open the dashboard (`AI Detox: Open Dashboard`) to see:
 
 ## How Blocking Works
 
-When a session starts, AI Detox writes the following VS Code settings to both **Global** and **Workspace** configuration targets:
+When a session starts, Raw Code Focus writes the following VS Code settings to both **Global** and **Workspace** configuration targets:
 
 | Setting | Value during session |
 |---|---|
