@@ -1,0 +1,69 @@
+{
+  "name": "ai-detox",
+  "displayName": "AI Detox",
+  "description": "Block AI coding tools during timed focus sessions and track your raw coding streak.",
+  "version": "0.1.0",
+  "publisher": "dinesh0666",
+  "engines": { "vscode": "^1.85.0" },
+  "categories": ["Other"],
+  "icon": "media/icon.png",
+  "activationEvents": ["onStartupFinished"],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "aiDetox.startSession",
+        "title": "AI Detox: Start Detox Session"
+      },
+      {
+        "command": "aiDetox.stopSession",
+        "title": "AI Detox: Stop Detox Session"
+      },
+      {
+        "command": "aiDetox.openDashboard",
+        "title": "AI Detox: Open Dashboard"
+      }
+    ],
+    "configuration": {
+      "title": "AI Detox",
+      "properties": {
+        "aiDetox.defaultDurationMinutes": {
+          "type": "number",
+          "default": 60,
+          "description": "Default detox session duration in minutes"
+        },
+        "aiDetox.blockedExtensions": {
+          "type": "array",
+          "default": [
+            "GitHub.copilot",
+            "GitHub.copilot-chat",
+            "TabNine.tabnine-vscode",
+            "Continue.continue",
+            "Codeium.codeium",
+            "AmazonWebServices.aws-toolkit-vscode"
+          ],
+          "description": "Extension IDs to disable during a detox session"
+        },
+        "aiDetox.showStatusBar": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show detox status in the status bar"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src --ext ts"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "20.x",
+    "typescript": "^5.3.2",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "eslint": "^8.0.0"
+  }
+}
