@@ -4,6 +4,10 @@
   "description": "Block AI coding tools during timed focus sessions and track your raw coding streak.",
   "version": "0.1.0",
   "publisher": "dinesh0666",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dinesh0666/ai-detox.git"
+  },
   "engines": { "vscode": "^1.85.0" },
   "categories": ["Other"],
   "icon": "media/icon.png",
