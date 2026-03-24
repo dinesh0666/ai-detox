@@ -3,11 +3,15 @@
   "displayName": "AI Detox",
   "description": "Block AI coding tools during timed focus sessions and track your raw coding streak.",
   "version": "0.1.0",
+  "license": "MIT",
   "publisher": "dinesh0666",
+  "homepage": "https://github.com/dinesh0666/ai-detox#readme",
+  "bugs": { "url": "https://github.com/dinesh0666/ai-detox/issues" },
   "repository": {
     "type": "git",
     "url": "https://github.com/dinesh0666/ai-detox.git"
   },
+  "keywords": ["ai", "copilot", "focus", "blocker", "detox"],
   "engines": { "vscode": "^1.85.0" },
   "categories": ["Other"],
   "icon": "media/icon.png",
